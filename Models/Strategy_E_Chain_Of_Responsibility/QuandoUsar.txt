@@ -1,0 +1,5 @@
+﻿O padrão Strategy é muito útil quando temos um conjunto de algoritmos similares, e precisamos alternar entre eles em diferentes pedaços da aplicação. 
+No exemplo do vídeo, temos diferentes maneira de enviar mensgens
+
+O padrão Chain of Responsibility cai como uma luva quando temos uma lista de comandos a serem executados de acordo com algum cenário em específico,
+ e sabemos também qual o próximo cenário que deve ser validado, caso o anterior não satisfaça a condição.

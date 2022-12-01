@@ -1,0 +1,21 @@
+﻿O programa vai ter que calcular os impostos pagos pelo produto.
+No exemplo vamos ter tres tipos de impostos (ICA,ICB,ICC).
+Todos os impostos estão no mesmo nivel, ou seja, não tem nenhum que é mais importante que o outro ou nenhum que anula o outro.
+E um determinado imposto pode ou não ser aplicado em um produto.
+
+EX:
+Uma camisa pode ter o Imposto ICA e ICC, mas não ter o ICB,
+Um Tenis pode ter o Imposto ICB e ICC, mas não ter o ICA.
+
+Valor do imposto:
+ICA = 15% sobre o produto
+ICB = 10% sobre o produto
+ICC = 5% sobre o produto
+
+Ou Seja podemos notar que temos varios calculos de impostos que podem ou não ser encadeados.
+
+Para nos ajudar a solucionar esse problemas vamos usar o Decorator, 
+pois ele introduz uma flexibilidade na composição dos objetos, bastando escolher o momento da instanciação.
+
+ou seja, a vamos criar uma classe abstrata onde ela vai ter um construtor para chamar o proximo comportamentos(no nosso caso o proximo imposto)
+e um construtor vazio para quando o objetos não tiver mais comportamentos a serem adicionados.

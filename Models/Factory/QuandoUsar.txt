@@ -1,0 +1,7 @@
+﻿
+Salve galera blz, bem vindos ao canal manual do programador, no video de hoje vamos dar continuidade a nossa serie de video sobre padrão de projeto,
+e no exemplo de hoje vamos usar o padrão Factory. Vamos nessa.
+
+Acredito que muitos de vcs já utilizaram esse padrão, uns conhecendo outros não, 
+Ele é um padrão simples de ser aplicado e tem como objeto isolar o processo de criação de um objeto, para facilitar a troca dele no futuro, 
+levamos o processo de instanciação dessa classe para uma Factory.

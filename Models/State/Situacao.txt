@@ -1,0 +1,13 @@
+﻿Fazer um programa que tem como objetivo controlar o estado de um pedido.
+O pedido possui 4 estados e dependendo do estado que ele esta ele não pode mais ser alterado.
+Seus estados são: (Em Andamento, Aprovado, Reprovado e Finalizado)
+
+Caminho dos estados;
+
+Em andamento -> Aprovado -> Finalizado.
+Em andamento -> Reprovado -> Finalizado.
+
+Qualquer caminho diferente desse temos que gerar uma exceção.
+
+Para solucionar esse problema vamos usar o padrão de projeto State. 
+Seu objetivo auxiliar e manter o controle dos estados e organiza-los atraves da criação de classes que representa cada estado e saiba controlar as transações

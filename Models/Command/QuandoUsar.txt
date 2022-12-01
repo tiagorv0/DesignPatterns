@@ -1,0 +1,14 @@
+﻿
+Situação
+No nosso exemplo vamos tem uma classe Pedido e vamos construir uma fila que tem como objeto alterar os status do nosso Pedido,
+ou seja, vamos criar uma fila de processamentom que vai ficar alterando o status do pedido.
+
+Fazendo isso vamos esta usando o padrão de projeto Command, 
+que é usando quando queremos criar uma fila de comando que vai ser executada posteriormente
+
+
+NO FINAL(FALAR ISSO)
+Alguns de vcs podem ter reparado que o padrão Command e Strategy são bem parecidos principalmente em termos de implementação, pois ambos depende de interfaces,
+Mas a ideia de quando usar cada um é diferente. 
+A ideia Command é abstrair um comando que deve ser executado, pois não é possível executá-lo naquele momento.
+Já no Strategy, a ideia é que você tenha uma estratégia (um algoritmo) para resolver um problema.

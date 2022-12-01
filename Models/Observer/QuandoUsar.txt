@@ -1,0 +1,19 @@
+﻿Salve galera blz, bem vindos ao canal manual do programador, no video de hoje vamos dar continuidade a nossa serie de video sobre padrão de projeto,
+e no exemplo de hoje vamos usar o padrão Observer. Vamos nessa.
+
+No exemplo de hoje vamos aproveitar a classe de Pessoa e a classe de PessoaBuilder que criamos no nosso ultimo video, 
+,onde mostramos como funciona o padrão de projeto Builder.
+
+SITUAÇÃO:
+Apos o cadatro de pessoa queremos enviar um email e um sms.
+
+Ou seja temos diferentes ações a serem execultadas apos um determinado procedimento
+
+
+O Que é:
+Quando temos diversas ações diferentes a serem executadas após um determinado processo, podemos implementar o Observer.
+Ele permite que diversas ações sejam executadas de forma transparente à classe principal, reduzindo o acoplamento entre essas ações, facilitando a manutenção e evolução do código.
+
+
+FALAR:
+Galera, a vantagem dessa nossa implementação é se agora queremos adicionar uma nova ação apos o cadastro de pessoa esta facil.
